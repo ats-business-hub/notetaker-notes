@@ -582,3 +582,17 @@ code {
     border: 1px solid CanvasText;
   }
 }
+
+/* Own-product template callout. Same layout as .quick-pick, separate class so it is not an affiliate quick pick. */
+.own-template {
+  background: var(--accent-soft);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  padding: 0.9rem 1.05rem 0.75rem;
+  margin: 0 0 1.5rem;
+  max-width: var(--measure);
+}
+.own-template .eyebrow { margin: 0 0 0.45rem; }
+.own-template p { margin: 0 0 0.55rem; }
+.own-template p:last-child { margin-bottom: 0; }
+@media (forced-colors: active) { .own-template { border: 1px solid CanvasText; } }
