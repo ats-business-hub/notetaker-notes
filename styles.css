@@ -505,9 +505,10 @@ code {
 }
 
 
-/* Quick pick boxes and the homepage Top picks strip (round 11). */
+/* Quick pick boxes, dated offer callouts, and the homepage Top picks strip (round 11). */
 
 .quick-pick,
+.offer-callout,
 .top-picks {
   background: var(--accent-soft);
   border: 1px solid var(--line);
@@ -518,26 +519,31 @@ code {
 }
 
 .quick-pick .eyebrow,
+.offer-callout .eyebrow,
 .top-picks .eyebrow {
   margin: 0 0 0.45rem;
 }
 
 .quick-pick p,
+.offer-callout p,
 .top-picks p {
   margin: 0 0 0.55rem;
 }
 
 .quick-pick p:last-child,
+.offer-callout p:last-child,
 .top-picks p:last-child {
   margin-bottom: 0;
 }
 
 .quick-pick .cta,
+.offer-callout .cta,
 .top-picks .cta {
   margin: 0 0.6rem 0.35rem 0;
 }
 
 .quick-pick ul,
+.offer-callout ul,
 .top-picks ul {
   list-style: none;
   margin: 0;
@@ -577,6 +583,7 @@ code {
 
 @media (forced-colors: active) {
   .quick-pick,
+  .offer-callout,
   .top-picks,
   .top-picks li {
     border: 1px solid CanvasText;
